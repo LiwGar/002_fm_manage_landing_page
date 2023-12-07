@@ -25,16 +25,41 @@
     border: none; 
     outline: none;
     scroll-behavior: smooth; 
-    overflow: hidden;
 }
 
 html {
     font-size: 1.6rem;
+    overflow: hidden;
 }
 
 /* BODY */
 body {
     color: var(--Dark-Grayish-Blue);
+}
+
+/* Buttons Box*/
+.btn_Box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34rem;
+    height: 5rem;
+}
+
+/* Section Buttons */
+.btn_Box .btn {
+    position: relative;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    color: var(--Vary-Light-Gray);
+    font-weight: 500;
+    font-size: small;
+    width: 15rem;
+    height: 100%;
+    background: var(--Bright-Red) ;
+    border-radius: 12rem;
+    z-index: 1;
 }
 
 
@@ -133,6 +158,43 @@ body {
     .second_Mobile_Background img {
         width: 102%;
         height: 100%;
+    }
+
+    /* HOME SECTION DESIGN */
+    .home {
+        width: 100%;
+    }
+
+    .home .home_Content{
+        justify-content: center;     
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .home_Content h1 {
+        color: var(--Dark-Blue);
+        font-size: 3.8rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .home_Content p {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        margin-top: .5rem;
+    }
+
+    .home .home_button {
+        position: relative;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .home .home_button .btn {
+        width: 14rem;
+        height: 4.8rem; 
     }
 
     
