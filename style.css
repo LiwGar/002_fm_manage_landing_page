@@ -28,8 +28,8 @@
 }
 
 html {
-    font-size: 1.6rem;
-    overflow: hidden;
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 /* BODY */
@@ -42,8 +42,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 34rem;
-    height: 5rem;
+    background-color: transparent;
 }
 
 /* Section Buttons */
@@ -55,11 +54,54 @@ body {
     color: var(--Vary-Light-Gray);
     font-weight: 500;
     font-size: small;
-    width: 15rem;
-    height: 100%;
+    width: 14rem;
+    height: 4.5rem;
     background: var(--Bright-Red) ;
     border-radius: 12rem;
     z-index: 1;
+}
+
+/* Menu Icon (header) */
+#menu_Icon {
+    cursor: pointer;
+    display: none;
+}
+
+/* HEADER SECTION DESIGN */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 7rem 11%;    
+    background: transparent;
+    z-index: 100;
+}
+
+.header_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Elementos de Nav-Bar */
+.nav_Bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.3rem;
+}
+.nav_Bar a {
+    font-size: 1.2rem;
+    color: var(--Dark-Blue);
+    font-weight: 500;
+}
+
+.mobile_Background,
+.second_Mobile_Background {
+    display: none;
 }
 
 
