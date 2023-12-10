@@ -58,6 +58,7 @@ body {
     height: 4.5rem;
     background: var(--Bright-Red) ;
     border-radius: 12rem;
+    box-shadow: 0 .4rem 1rem var(--Bright-Red);
     z-index: 1;
 }
 
@@ -75,7 +76,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 7rem 11%;    
+    padding: 6rem 11%;    
     background: transparent;
     z-index: 100;
 }
@@ -99,9 +100,72 @@ body {
     font-weight: 500;
 }
 
+section {
+    min-height: 95vh;
+    padding: 8rem 11%;
+}
+
+/* HOME SECTION DESIGN */
+.desktop_Background {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+.desktop_Background img {
+    position: absolute;
+    width: 74rem;
+    height: 66rem;
+    top: -8rem;
+    right: -12rem;
+}
+
+.second_Desktop_Background {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    width: 40%;
+    height: 80%;
+    top: 20rem;
+    right: 13rem;
+    z-index: -1;
+}
+
+.second_Desktop_Background img {
+    width: 100%;
+    height: 100%;
+}
+
 .mobile_Background,
 .second_Mobile_Background {
     display: none;
+}
+
+/* Home_Content */
+.home_Content {
+    width: 45%;
+}
+
+/* H1 of Home_Content */
+.home_Content h1 { 
+    color: var(--Dark-Blue);  
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -.2rem;
+    margin-bottom: 2.6rem;
+}
+
+/* P del Contenido del Home */
+.home_Content p {
+    width: 68%;
+    font-size: 1.45rem;
+    line-height: 1.6;
+    margin-bottom: 3.4rem;
 }
 
 
