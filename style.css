@@ -62,6 +62,11 @@ body {
     z-index: 1;
 }
 
+.btn_Box .btn:hover {
+    width: 14.1rem;
+    height: 4.6rem;
+}
+
 /* Menu Icon (header) */
 #menu_Icon {
     cursor: pointer;
@@ -98,6 +103,12 @@ body {
     font-size: 1.2rem;
     color: var(--Dark-Blue);
     font-weight: 500;
+}
+
+.nav_Bar a:hover,
+.nav_Bar a.active {
+    color: var(--Dark-Grayish-Blue);
+    font-weight: bold;
 }
 
 section {
