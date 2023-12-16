@@ -226,7 +226,7 @@ section {
 .careers_Content {
     display: flex;
     margin-top: 1.8rem;
-    gap: 2rem;    
+    gap: 3rem;    
 }
 
 .careers_Content .content {
@@ -241,7 +241,7 @@ section {
     color: var(--Vary-Light-Gray);
     font-weight: bold;
     font-size: small;
-    width: 6.5rem;
+    width: 7.4rem;
     height: 3.6rem;
     background: var(--Bright-Red) ;
     border-radius: 12rem;
@@ -256,6 +256,89 @@ section {
 }
 
 .careers_Content .content p {
+    font-size: 1.45rem;
+    line-height: 1.6;
+    margin-top: 1.8rem;
+}
+
+/* COMMUNITY SECTION DESIGN */
+.community {
+    height: fit-content;
+    margin-top: 5rem;
+}
+
+.community h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--Dark-Blue);  
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: -.01rem;
+    margin-bottom: 7rem;
+}
+
+.community_Row {
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.community_Row::-webkit-scrollbar {
+    width: 1rem;
+    background: var(--Dark-Grayish-Blue);
+}
+
+.community_Row::-webkit-scrollbar-thumb {
+    background: var(--Bright-Red);
+}
+
+.community_Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 3rem;
+}
+
+.community_Box .community_Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 47.5%;
+    margin-bottom: 3rem;
+    background: linear-gradient(
+    to top,
+    hsl(0, 0%, 98%) 0%,
+    hsl(0, 0%, 98%) 86%,
+    white 0,
+    white 10%
+  );
+}
+
+.community_Content img {
+    width: 7.2rem;
+    height: 7.2rem;
+}
+
+.community_Content .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 4rem;
+    background-color: var(--Vary-Light-Gray);
+}
+
+.community_Content .content h3 {
+    color: var(--Dark-Blue);  
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: -.01rem;
+}
+
+.community_Content .content p {
     font-size: 1.45rem;
     line-height: 1.6;
     margin-top: 1.8rem;
