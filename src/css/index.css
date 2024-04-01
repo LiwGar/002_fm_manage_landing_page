@@ -6,7 +6,7 @@
 @layer components {
   
   .wrapper {
-    @apply w-[90%] mx-auto max-w-screen-xl overflow-hidden;
+    @apply w-[90%] lg:w-[80%] mx-auto max-w-screen-xl overflow-hidden;
   }
 
   .button {
