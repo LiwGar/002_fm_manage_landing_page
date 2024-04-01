@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{html,js}',
     './src/**/*.{html,js,ts,jsx,tsx,mdx}',
-    './**/*.{html,js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "open-menu": "url('../images/icon-hamburger.svg')",
+        "close-menu": "url('../images/icon-close.svg')",
+      },
       fontFamily: {
         vietnam: ["Be Vietnam Pro", 'sans-serif']
       },
@@ -22,10 +23,8 @@ module.exports = {
           veryPaleRed: "hsl(13, 100%, 96%)",
           varyLightGray: "hsl(0, 0%, 98%)",
         }
-
-      }
+      },
     },
   },
   plugins: [],
 }
-

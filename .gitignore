@@ -94,6 +94,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+design/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -195,3 +196,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
