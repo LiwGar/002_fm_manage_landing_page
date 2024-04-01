@@ -18,27 +18,38 @@
 <body>
 
   <!-- header design -->
-  <header id="header" class="header" alt="header">
-    <div id="header_Container" class="header_Container" alt="header_Container">
+  <header alt="header">
 
-      <a class="header_Logo" alt="header_Logo">
-        <i><img src="./images/logo.svg" /></i>
+    <nav alt="nav_Bar" class="wrapper flex h-20 items-center justify-between">
+
+      <a href="./" class="w-[33.3%] max-w-[140px]">
+        <img src="./src/images/logo.svg" alt="nav_Logo" class="w-full">
       </a>
 
-      <div class="menu_Icon bx bx-menu" id="menu_Icon"></div>
+      <input type="checkbox" id="nav_Menu" class="peer hidden">
 
-      <nav class="nav_Bar" alt="nav_Bar">
-        <a href="#pricing">Pricing</a>
-        <a href="#product">Product</a>
-        <a href="#about_us">About Us</a>
-        <a href="#careers">Careers</a>
-        <a href="#community">Community</a>
-      </nav>
+      <label for="nav_Menu" class="w-6 h-5 bg-open-menu bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50
+                  md:hidden"></label>
 
-      <button id="header_button" class="header_button btn_Box buttons">
-        <a href="#" class="btn" alt="nav_button">Get Started</a>
+      <div alt="header_Container" class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform
+                md:static md:translate-x-0 md:bg-none">
+        <ul alt="nav_Bar" class="absolute grid inset-x-0 w-[90%] top-24 p-12 mx-auto h-max bg-white text-primary-darkBlue font-bold text-center rounded-md gap-6 shadow-2xl
+                md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static">
+          <li href="#pricing">Pricing</li>
+          <li href="#product">Product</li>
+          <li href="#about_us">About Us</li>
+          <li href="#careers">Careers</li>
+          <li href="#community">Community</li>
+        </ul>
+      </div>
+  
+      <button alt="header_button" class="button shadow-sm shadow-primary-brightRed/30 hidden lg:block">
+        <a href="#" alt="nav_button">Get Started</a>
       </button>
-    </div>
+
+    </nav>
+    
+
   </header>
 
   <!-- home section design -->
