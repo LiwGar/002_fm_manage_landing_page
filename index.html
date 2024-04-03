@@ -151,23 +151,40 @@
 
       </section>
 
-      <section alt="community">
+      <section alt="community" class="wrapper max-w-lg mx-auto text-center lg:mx-0 md:max-w-xl">
         
-        <h2>What they’ve said</h2>
+        <h2 class="text-neutral-veryDarkBlue text-[1.9rem] font-bold md:text-4xl">
+          What they’ve said
+        </h2>
 
-        <div alt="community_Box">
-          <article alt="community_Content">
-            <img 
-            src="./src/images/avatar-anisha.png"
-            alt="community_User"
-            >
-            <h3>Anisha Li</h3>
-            <p>
-              “Manage has supercharged our team’s workflow. The ability to maintain 
-              visibility on larger milestones at all times keeps everyone motivated.”
-            </p>
-          </article>
+        <div class="flex mt-2 overflow-x-auto overscroll-contain gap-8 md:w-full">
+
+          <div alt="community_Box" class="mt-24 mb-14">
+
+            <article alt="community_Content" class="relative px-4 pt-16 pb-12 bg-neutral-varyLightGray md:w-[36rem]">
+              <img 
+              class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
+              src="./src/images/avatar-anisha.png"
+              alt="community_User"
+              >
+              <h3 class="mb-5 pt-8 text-neutral-veryDarkBlue text-lg font-bold ">Anisha Li</h3>
+              <p class="text-neutral-darkGrayishBlue md:text-lg">
+                “Manage has supercharged our team’s workflow. The ability to maintain 
+                visibility on larger milestones at all times keeps everyone motivated.”
+              </p>
+            </article>
+  
+          </div>
+
         </div>
+        
+
+        <button
+          alt="header_Button"
+          class="button mx-auto mb-6 shadow-xl shadow-primary-brightRed/30"
+        >
+          <a href="#">Get Started</a>
+        </button>
 
       </section>
 
