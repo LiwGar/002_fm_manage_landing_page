@@ -780,6 +780,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-0 {
+  margin-left: 0px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -2828,6 +2832,12 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  }
+
   .md\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2838,12 +2848,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
   }
 
   .md\:bg-transparent {
@@ -2901,24 +2905,8 @@ video {
     width: 80%;
   }
 
-  .xl\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .xl\:gap-4 {
-    gap: 1rem;
-  }
-
   .xl\:gap-5 {
     gap: 1.25rem;
-  }
-
-  .xl\:pl-20 {
-    padding-left: 5rem;
-  }
-
-  .xl\:pl-16 {
-    padding-left: 4rem;
   }
 
   .xl\:pl-24 {
@@ -2937,22 +2925,6 @@ video {
 
   .\32xl\:w-\[84\%\] {
     width: 84%;
-  }
-
-  .\32xl\:w-\[86\%\] {
-    width: 86%;
-  }
-
-  .\32xl\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .\32xl\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .\32xl\:pl-24 {
-    padding-left: 6rem;
   }
 
   .\32xl\:pl-20 {
