@@ -10,7 +10,7 @@
   }
 
   .button {
-    @apply block px-12 py-4 w-max bg-primary-brightRed text-neutral-varyLightGray rounded-full
+    @apply block px-12 py-4 w-max bg-primary-brightRed text-neutral-varyLightGray font-semibold rounded-full
   }
 }
 
