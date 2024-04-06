@@ -11,6 +11,7 @@
 
   .button {
     @apply block px-12 py-4 w-max bg-primary-brightRed text-neutral-varyLightGray font-semibold rounded-full
+    hover:bg-neutral-veryPaleRed hover:text-primary-brightRed
   }
 }
 
