@@ -45,19 +45,19 @@
         >
           <ul
             alt="nav_Bar"
-            class="absolute grid inset-x-0 w-[90%] top-24 p-12 mx-auto h-max bg-white text-primary-darkBlue font-bold text-center rounded-md gap-6 shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static"
+            class="absolute grid inset-x-0 w-[90%] top-24 p-12 mx-auto h-max bg-white text-primary-darkBlue font-bold text-center gap-6 rounded-md shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static"
           >
-            <li href="#pricing">Pricing</li>
-            <li href="#product">Product</li>
-            <li href="#about_us">About Us</li>
-            <li href="#careers">Careers</li>
-            <li href="#community">Community</li>
+            <li href="#pricing" class="hoverDarkGray">Pricing</li>
+            <li href="#product" class="hoverDarkGray">Product</li>
+            <li href="#about_us" class="hoverDarkGray">About Us</li>
+            <li href="#careers" class="hoverDarkGray">Careers</li>
+            <li href="#community" class="hoverDarkGray">Community</li>
           </ul>
         </div>
 
         <button
           alt="header_Button"
-          class="button py-3 shadow-lg shadow-primary-brightRed/30 hidden lg:block"
+          class="button py-3 shadow-md shadow-primary-brightRed/30 hidden lg:block"
         >
           <a href="#">Get Started</a>
         </button>
@@ -88,7 +88,7 @@
 
           <button
             alt="header_Button"
-            class="button mx-auto shadow-xl shadow-primary-brightRed/30 md:mx-0"
+            class="button mx-auto shadow-lg shadow-primary-brightRed/30 md:mx-0"
           >
             <a href="#">Get Started</a>
           </button>
@@ -99,11 +99,16 @@
 
     </header>
 
+    <figure class="absolute inset-0 overflow-hidden pointer-events-none">
+      <img src="./src/images/bg-tablet-pattern.svg" class="absolute w-full -top-16 -right-[22%] max-w-2xl -z-10
+                md:-top-48 md:-right-[32%] lg:max-w-3xl lg:-top-64 lg:-right-[15%] 2xl:-top-56 2xl:right-[2%]">
+    </figure>
+
     <main>
       <!-- About  and Careers section design -->
-      <section alt="about_careers" class="wrapper grid py-24 text-center gap-12 md:grid-cols-2 md:text-left">
+      <section alt="about_careers" class="wrapper grid py-20 text-center gap-12 md:grid-cols-2 md:text-left">
 
-        <article alt="about_us_Content" class="mx-auto ml-0 w-[90%] xl:ml-0 xl:w-[80%]">
+        <article id="about_us" alt="about_us_Content" class="mx-auto ml-0 w-[90%] xl:ml-0 xl:w-[80%]">
           <h2 class="mb-6 text-neutral-veryDarkBlue text-[1.9rem] leading-[44px] font-bold md:text-4xl">
             What’s different about Manage?
           </h2>
@@ -114,7 +119,7 @@
           </p>
         </article>
 
-        <div alt="careers_Box" class="grid gap-12 2xl:w-[84%] 2xl:pl-20">
+        <div id="careers" alt="careers_Box" class="grid gap-12 2xl:w-[84%] 2xl:pl-20">
 
           <article alt="careers_Content" class="space-y-4 md:space-y-5">
             <p class="flex items-center bg-neutral-veryPaleRed font-bold  rounded-l-full md:bg-transparent xl:gap-5">
@@ -155,8 +160,9 @@
         </div>
 
       </section>
+
       <!-- Community section design -->
-      <section alt="community" class="wrapper max-w-full text-center lg:w-[100%]">
+      <section id="community" alt="community" class="wrapper max-w-full text-center lg:w-[100%]">
         
         <h2 class="text-neutral-veryDarkBlue text-[1.9rem] font-bold md:text-4xl">
           What they’ve said
@@ -227,14 +233,20 @@
 
         <button
           alt="header_Button"
-          class="button mx-auto mb-12 shadow-xl shadow-primary-brightRed/30"
+          class="button mx-auto mb-12 shadow-lg shadow-primary-brightRed/30"
         >
           <a href="#">Get Started</a>
         </button>
 
+        <figure class="static inset-0 overflow-hidden pointer-events-none hidden lg:block">
+          <img src="./src/images/bg-tablet-pattern.svg" class="absolute w-full max-w-3xl -left-[34%] -bottom-[140%] -z-10 
+                  2xl:-left-[20%] 2xl:-bottom-[100%]">
+        </figure>
+
       </section>
+
       <!-- Product section design -->
-      <section alt="product" class="bg-primary-brightRed font-bold md:mt-28">
+      <section id="product" alt="product" class="bg-primary-brightRed font-bold md:mt-28">
         <div class="wrapper grid md:grid-cols-[50%_40%] py-20 text-center gap-6 md:justify-between md:items-center md:text-left">
           <h2 class="text-[2.7rem] leading-[3.4rem] text-neutral-veryPaleRed">Simplify how your team works today.</h2>
           <button
@@ -246,13 +258,12 @@
           </button>
         </div>
       </section>
-
     </main>
 
-    <!-- Pricing section design -->
-    <section id="pricing" alt="pricing" class="bg-neutral-veryDarkBlue text-neutral-veryPaleRed">
-
-      <div alt="contact_Box" class="wrapper flex flex-col-reverse justify-between py-8 mx-auto space-y-12 md:flex-row md:space-y-0">
+    <!-- Footer design -->
+    <footer class="bg-neutral-veryDarkBlue text-neutral-veryPaleRed">
+      <!-- Pricing section design -->
+      <section id="pricing" class="wrapper flex flex-col-reverse justify-between py-8 mx-auto space-y-12 md:flex-row md:space-y-0">
 
         <div alt="logo_Content_Socials" class="flex flex-col-reverse justify-between items-center space-y-12 md:flex-col md:items-start md:space-y-0">
 
@@ -285,19 +296,19 @@
           </div>
         </div>
         
-        <div alt="contact_Menu" class="flex justify-around px-10 space-x-28 md:px-0 md:space-x-9 lg:space-x-32 2xl:space-x-52">
+        <div alt="contact_Menu" class="flex justify-around px-10 space-x-20 md:px-0 md:space-x-9 lg:space-x-32 2xl:space-x-52">
 
           <ul alt="contact_Link" class="flex flex-col space-y-3">
-            <li href="#home">Home</li>
-            <li href="#pricing">Pricing</li>
-            <li href="#product">Product</li>
-            <li href="#about_us">About Us</li>
+            <li href="#home"  class="hoverBrightRed">Home</li>
+            <li href="#pricing" class="hoverBrightRed">Pricing</li>
+            <li href="#product" class="hoverBrightRed">Product</li>
+            <li href="#about_us" class="hoverBrightRed">About Us</li>
           </ul>
 
           <ul alt="contact_Link" class="flex flex-col space-y-3">
-            <li href="#careers">Careers</li>
-            <li href="#community">Community</li>
-            <li href="#pricing">Privacy Policy</li>
+            <li href="#careers" class="hoverBrightRed">Careers</li>
+            <li href="#community" class="hoverBrightRed">Community</li>
+            <li href="#pricing" class="hoverBrightRed">Privacy Policy</li>
           </ul>
         
         </div>
@@ -327,26 +338,23 @@
 
         </div>
 
-      </div>
+      </section>
 
-    </section>
+      <section id="author" class="flex p-4 text-sm text-neutral-darkGrayishBlue">
+        <div class="w-[100%] mb-4 max-w-md mx-auto text-center">
+          Challenge by 
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          class="text-primary-brightRed font-semibold">
+          Frontend Mentor
+          </a>. 
+          Coded by 
+          <a href="https://liwgar-portfolio.vercel.app/" class="text-primary-brightRed font-semibold">
+            LiwGar
+          </a>.
+        </div>
+      </section>
 
-    <!-- Footer design -->
-    <!-- <footer id="footer" class="footer">
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor </a
-        >.
-        <br />
-        Coded by
-        <a href="https://liwgar-portfolio.vercel.app/"> LiwGar &reg; </a>
-      </div>
-      <div class="footer_BtnToTop">
-        <a href="#"><i class="bx bx-up-arrow-circle"></i></a>
-      </div>
-    </footer> -->
+    </footer>
 
-    <script src="./script.js"></script>
   </body>
 </html>
