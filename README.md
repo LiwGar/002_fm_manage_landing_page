@@ -42,8 +42,8 @@ Users should be able to:
   <img src="./screenShots/Macbook-Air-2.png" width="500" height="350">
 </p>
 <p text-align="center">
-  <img src="./screenShots/iPhone-mobile.png" width="250" height="350">
-  <img src="./screenShots/iPhone-mobile2.png" width="250" height="350">
+  <img src="./screenShots/iPhone-mobile.png" width="200" height="350">
+  <img src="./screenShots/iPhone-mobile2.png" width="200" height="350">
 </p>
 
   
