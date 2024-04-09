@@ -87,7 +87,7 @@
           </p>
 
           <button
-            alt="header_Button"
+            alt="home_Button"
             class="button mx-auto shadow-lg shadow-primary-brightRed/30 md:mx-0"
           >
             <a href="#">Get Started</a>
@@ -232,7 +232,7 @@
         </div>
 
         <button
-          alt="header_Button"
+          alt="community_Button"
           class="button mx-auto mb-12 shadow-lg shadow-primary-brightRed/30"
         >
           <a href="#">Get Started</a>
@@ -250,7 +250,7 @@
         <div class="wrapper grid md:grid-cols-[50%_40%] py-20 text-center gap-6 md:justify-between md:items-center md:text-left">
           <h2 class="text-[2.7rem] leading-[3.4rem] text-neutral-veryPaleRed">Simplify how your team works today.</h2>
           <button
-            alt="header_Button"
+            alt="product_Button"
             class="button mx-auto mb-4 bg-neutral-varyLightGray text-primary-brightRed shadow-lg md:mx-0 md:justify-self-end
                 hover:bg-neutral-veryPaleRed"
           >
@@ -315,22 +315,24 @@
 
         <div alt="contact_Content_Button" class="flex flex-col justify-between">
 
-          <form alt="content_Form">
+          <form id="contact_Form" alt="contact_Form">
             <div alt="input_Field" class="flex space-x-3">
               <input
-                class="flex-1 px-6 py-3 rounded-full text-primary-brightRed text-sm font-semibold focus:outline-none"
+                id="email_Input"
+                class="flex-1 px-6 py-3 rounded-full text-primary-brightRed text-sm font-semibold focus:outline-none
+                border border-gray-300 transition duration-300 ease-in-out focus:border-primary-brightRed"
                 type="email"
                 name="email"
                 placeholder="Updates in your inbox…"
               />
-
               <button
-                alt="header_Button"
+                alt="contact_Button"
                 class="button px-8 py-3 mx-auto text-sm md:mx-0 focus:outline-none"
               >
-                <a href="#">GO</a>
+                <a href="./">GO</a>
               </button>
             </div>
+            <div id="error_Message" class="px-4 py-1 text-primary-brightRed text-sm"></div>
           </form>
           <p class="text-neutral-darkGrayishBlue text-end text-sm hidden md:block">
             Copyright 2020. All Rights Reserved
@@ -355,6 +357,6 @@
       </section>
 
     </footer>
-
+    <script src="./script.js"></script>
   </body>
 </html>

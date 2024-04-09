@@ -44,6 +44,7 @@ Users should be able to:
 <p text-align="center">
   <img src="./screenShots/iPhone-mobile.png" width="200" height="350">
   <img src="./screenShots/iPhone-mobile2.png" width="200" height="350">
+  <img src="./screenShots/iPhone-mobile3.png" width="200" height="350">
 </p>
 
   
