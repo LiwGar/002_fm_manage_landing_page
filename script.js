@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var mySwiper = new Swiper('.swiper', {
     slidesPerView: 1,
     speed: 400,
-    spaceBetween: 100,
+    spaceBetween: 360, 
+    slidesOffsetAfter: 100, 
     direction: 'horizontal',
     loop: true,
     pagination: {
@@ -16,8 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     breakpoints: {
 
+      768: {
+        slidesPerView: 2,
+        // slidesOffsetAfter: 20, 
+      },
+
       1024: {
         slidesPerView: 3,
+        slidesOffsetAfter: 100,
         spaceBetween: 310, 
       },
 
@@ -29,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     },
   });
 });
-
 
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('contact_Form');
