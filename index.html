@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
     <link
       rel="icon"
       type="image/png"
@@ -168,67 +169,80 @@
           What they’ve said
         </h2>
 
-        <div class="flex flex-row justify-start mt-2 overflow-x-scroll overscroll-contain md:w-full">
+        <div class="swiper flex flex-row justify-start mt-2 overflow-x-scroll overscroll-contain md:w-full">
 
-          <div alt="community_Box" class="flex flex-row justify-center mt-24 mb-14 gap-8">
+          <div alt="community_Box" class="swiper-wrapper flex flex-row mt-24 mb-14 mx-auto gap-2">
 
-            <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
-              <img 
-              class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
-              src="./src/images/avatar-anisha.png"
-              alt="community_User"
-              >
-              <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Anisha Li</h3>
-              <p class=" text-neutral-darkGrayishBlue">
-                “Manage has supercharged our team’s workflow. The ability to maintain 
-                visibility on larger milestones at all times keeps everyone motivated.”
-              </p>
-            </article>
+            <div class="swiper-slide">
+              <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
+                <img 
+                class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
+                src="./src/images/avatar-anisha.png"
+                alt="community_User"
+                >
+                <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Anisha Li</h3>
+                <p class=" text-neutral-darkGrayishBlue">
+                  “Manage has supercharged our team’s workflow. The ability to maintain 
+                  visibility on larger milestones at all times keeps everyone motivated.”
+                </p>
+              </article>
+            </div>
 
-            <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
-              <img 
-              class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
-              src="./src/images/avatar-ali.png"
-              alt="community_User"
-              >
-              <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Ali Bravo</h3>
-              <p class=" text-neutral-darkGrayishBlue">
-                “We have been able to cancel so many other subscriptions
-                since using Manage. There is no more cross-channel confusion
-                and everyone is much more focused.”
-              </p>
-            </article>
+            <div class="swiper-slide">
+              <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
+                <img 
+                class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
+                src="./src/images/avatar-ali.png"
+                alt="community_User"
+                >
+                <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Ali Bravo</h3>
+                <p class=" text-neutral-darkGrayishBlue">
+                  “We have been able to cancel so many other subscriptions
+                  since using Manage. There is no more cross-channel confusion
+                  and everyone is much more focused.”
+                </p>
+              </article>
+            </div>
 
-            <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
-              <img 
-              class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
-              src="./src/images/avatar-richard.png"
-              alt="community_User"
-              >
-              <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Richard Watts</h3>
-              <p class=" text-neutral-darkGrayishBlue">
-                “Manage allows us to provide structure and process. It keeps
-                us organized and focused. I can’t stop recommending them to
-                everyone I talk to!”
-              </p>
-            </article>
+            <div class="swiper-slide">
+              <article alt="community_Content" class="swiper-slide relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
+                <img 
+                class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
+                src="./src/images/avatar-richard.png"
+                alt="community_User"
+                >
+                <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Richard Watts</h3>
+                <p class=" text-neutral-darkGrayishBlue">
+                  “Manage allows us to provide structure and process. It keeps
+                  us organized and focused. I can’t stop recommending them to
+                  everyone I talk to!”
+                </p>
+              </article>
+            </div>
 
-            <article alt="community_Content" class="relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
-              <img 
-              class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
-              src="./src/images/avatar-shanai.png"
-              alt="community_User"
-              >
-              <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Shanai Gough</h3>
-              <p class=" text-neutral-darkGrayishBlue">
-                “Their software allows us to track, manage and collaborate
-                on our projects from anywhere. It keeps the whole team
-                in-sync without being intrusive.”
-              </p>
-            </article>
-  
+            <div class="swiper-slide">
+              <article alt="community_Content" class="swiper-slide relative w-[21rem] px-3 pt-16 pb-12 bg-neutral-varyLightGray md:w-[32rem] md:px-9">
+                <img 
+                class="absolute mx-auto w-24 -top-12 inset-x-0 aspect-square"
+                src="./src/images/avatar-shanai.png"
+                alt="community_User"
+                >
+                <h3 class="mb-5 pt-4 text-neutral-veryDarkBlue text-lg font-bold ">Shanai Gough</h3>
+                <p class=" text-neutral-darkGrayishBlue">
+                  “Their software allows us to track, manage and collaborate
+                  on our projects from anywhere. It keeps the whole team
+                  in-sync without being intrusive.”
+                </p>
+              </article>
+            </div>
+            
           </div>
 
+          <div class="swiper-pagination mb-4"></div>
+
+          <div class="swiper-button-prev text-neutral-veryDarkBlue/10 ml-0"></div>
+          <div class="swiper-button-next text-neutral-veryDarkBlue/10 mr-0"></div>
+          
         </div>
 
         <button
@@ -357,6 +371,28 @@
       </section>
 
     </footer>
+    <!-- Slider main container -->
+    <div class="swiper swiperStyles relative">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination mt-4"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev text-neutral-veryDarkBlue/50"></div>
+      <div class="swiper-button-next text-neutral-veryDarkBlue/50"></div>
+    
+      <!-- If we need scrollbar -->
+      
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

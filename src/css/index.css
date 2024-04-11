@@ -21,6 +21,10 @@
   .hoverDarkGray {
     @apply cursor-pointer hover:text-neutral-darkGrayishBlue
   }
+
+  .swiperStyles {
+    @apply w-[600px] h-[300px] bg-slate-500
+  }
 }
 
 
