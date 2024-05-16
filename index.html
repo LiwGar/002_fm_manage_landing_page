@@ -64,6 +64,14 @@
         </div>
       </nav>
 
+      <figure class="absolute inset-0 overflow-hidden pointer-events-none">
+        <img
+          src="./src/images/bg-tablet-pattern.svg"
+          class="absolute w-full -top-16 -right-[22%] max-w-2xl -z-10 md:-top-48 md:-right-[32%] lg:max-w-3xl lg:-top-64 lg:-right-[15%] 2xl:-top-56 2xl:right-[2%]"
+          alt="tablet_Pattern"
+        />
+      </figure>
+
       <section
         alt="home"
         class="wrapper grid pb-12 justify-items-center items-center gap-8 md:grid-cols-2 md:py-24"
@@ -97,13 +105,7 @@
       </section>
     </header>
 
-    <figure class="absolute inset-0 overflow-hidden pointer-events-none">
-      <img
-        src="./src/images/bg-tablet-pattern.svg"
-        class="absolute w-full -top-16 -right-[22%] max-w-2xl -z-10 md:-top-48 md:-right-[32%] lg:max-w-3xl lg:-top-64 lg:-right-[15%] 2xl:-top-56 2xl:right-[2%]"
-        alt="tablet_Pattern"
-      />
-    </figure>
+    
 
     <main>
       <section
@@ -438,14 +440,14 @@
                 name="email"
                 placeholder="Updates in your inbox…"
               />
-              <button
+              <div
                 alt="contact_Button"
                 type="submit"
                 value="GO"
                 class="button px-8 py-3 mx-auto text-sm md:mx-0 focus:outline-none hover:bg-red-400"
               >
                 <a href="./">GO</a>
-              </button>
+              </div>
             </div>
             <div
               id="error_Message"
