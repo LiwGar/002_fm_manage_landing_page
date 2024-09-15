@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Manage landing page](https://liwgar.github.io/003_FM_Result_Summary_Component/)
+- Live Site URL: [Manage landing page](https://liwgar.github.io/002_fm_manage_landing_page/)
 
 ### Screenshot
 
